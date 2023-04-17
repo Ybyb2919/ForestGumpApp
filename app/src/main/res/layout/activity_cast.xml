@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CastActivity">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout style="@style/CastLinearLayoutTheme">
+
+                <ImageView
+                    android:id="@+id/tomHanksImage"
+                    style="@style/CastImageTheme"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/tom_hanks" />
+
+                <TextView
+                    style="@style/CastTextTheme"
+                    android:text="@string/tom_hanks" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/CastLinearLayoutTheme">
+
+                <ImageView
+                    android:id="@+id/robinRightImage"
+                    style="@style/CastImageTheme"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/robin_right" />
+
+                <TextView
+                    style="@style/CastTextTheme"
+                    android:text="@string/robin_wright" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/CastLinearLayoutTheme">
+
+                <ImageView
+                    android:id="@+id/garySininsImage"
+                    style="@style/CastImageTheme"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/gary_sinise" />
+
+                <TextView
+                    style="@style/CastTextTheme"
+                    android:text="@string/gary_sinise" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/CastLinearLayoutTheme">
+
+                <ImageView
+                    android:id="@+id/sallyField"
+                    style="@style/CastImageTheme"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/sally_field" />
+
+                <TextView
+                    style="@style/CastTextTheme"
+                    android:text="@string/sally_field" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

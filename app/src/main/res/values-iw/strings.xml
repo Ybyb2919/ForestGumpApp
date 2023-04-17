@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Movie Application</string>
+    <string name="movie_title">פורסט גאמפ</string>
+    <string name="short_movie_description">
+        פורסט גאמפ הוא סרט קולנוע דרמטי קומי,שיצא לאקרנים בשנת 1994
+        בכיכובו של השחקן טום הנקס, המבוסס על ספר מאת וינסטון גרום, אך שונה ממנו משמעותית.
+        הסרט היה מועמד ל-13 פרסי אוסקר, וזכה בשישה - כולל הפרסים לסרט הטוב ביותר,
+        לשחקן הטוב ביותר (הנקס), ולבמאי הטוב ביותר (רוברט זמקיס).
+        את המוזיקה לסרט כתב אלן סילבסטרי.</string>
+    <string name="p_purchase_button">רכישה</string>
+    <string name="cast_button">שחקנים</string>
+    <string name="p_purchase_text_view">רכשת %1$d כרטיסים %2$s מרחב רגליים נוסף. הכרטיסים %3$s מסוג חבילה-מלאה.\nהמחיר הכולל להזמנה הינו %4$d ש"ח.</string>
+    <string name="p_purchase_header">קנה כרטיסים</string>
+    <string name="p_purchase_amount_question">מספר הכרטיסים:</string>
+    <string name="p_pick_date_button">בחר תאריך</string>
+    <string name="p_back_button_dialog_title">אחורה</string>
+    <string name="p_back_button_dialog_message">האם אתה בטוח שבצונך לצאת באמצע ההזנה? כל המידע של ההזמנה יאבד.</string>
+    <string name="p_back_button_dialog_positive">כן</string>
+    <string name="p_back_button_dialog_negative">לא</string>
+    <string name="p_extra_legroom_check_box">מרחב רגליים נוסף</string>
+    <string name="p_full_package_check_box">חבילה מלאה</string>
+    <string name="p_full_package_info">החבילה המלאה כוללת פופקורן, שתייה ו3 חטיפים לבחירה</string>
+    <string name="p_extra_legroom_positive">עם</string>
+    <string name="p_extra_legroom_negative">בלי</string>
+    <string name="p_full_package_positive">הינם</string>
+    <string name="p_full_package_negative">אינם</string>
+    <string name="tom_hanks">טום האנקס\n<i>פורסט גאמפ</i></string>
+    <string name="robin_wright">רובין רייט\n<i>גני קיורן</i></string>
+    <string name="gary_sinise">גארי סיניס\n<i>לוטנט דן</i></string>
+    <string name="sally_field">סאלי פילד\n<i>גברת גאמפ</i></string>
+
+</resources>

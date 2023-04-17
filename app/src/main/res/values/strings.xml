@@ -1,0 +1,54 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Movie Application</string>
+    <string name="movie_title">Forest Gump</string>
+    <string name="short_movie_description">Forrest Gump, American film, released in 1994,
+        that chronicled 30 years (from the 1950s through the early 1980s) of the life of
+        a intellectually disabled man (played by Tom Hanks) in an unlikely fable that earned
+        critical praise, large audiences, and six Academy Awards, including best picture.</string>
+
+    <!-- Purchase activity section -->
+    //Purchase button
+    <string name="p_purchase_button">PURCHASE</string>
+
+    //Cast button
+    <string name="cast_button">CAST</string>
+
+    //Purchase text view
+    <string name="p_purchase_text_view">You have purchased %1$d tickets %2$s extra leg room.\nAll tickets are %3$s the full-package.\nYour total ticket price is: %4$d$.</string>
+
+    //Ticket spinner
+    <string name="p_purchase_header">Purchase tickets</string>
+    <string name="p_purchase_amount_question">Number of tickets:</string>
+
+    //Date chooser
+    <string name="p_pick_date_button">PICK DATE</string>
+
+    //Back button dialog
+    <string name="p_back_button_dialog_title">Back</string>
+    <string name="p_back_button_dialog_message">Are you sure you want to exit mid-purchase? All reservation data will be lost</string>
+    <string name="p_back_button_dialog_positive">YES</string>
+    <string name="p_back_button_dialog_negative">NO</string>
+
+    //Extra legroom check box
+    <string name="p_extra_legroom_check_box">Extra legroom</string>
+    <string name="p_extra_legroom_positive">with</string>
+    <string name="p_extra_legroom_negative">without</string>
+
+    //Full package check box
+    <string name="p_full_package_check_box">Full package</string>
+    <string name="p_full_package_positive">including</string>
+    <string name="p_full_package_negative">not including</string>
+
+    //Full package info
+    <string name="p_full_package_info">The full package includes popcorn, a drink and 3 snacks of your choice.</string>
+
+
+    /Cast
+    <string name="tom_hanks">Tom Hanks\n<i>Forrest Gump</i></string>
+    <string name="robin_wright">Robin Wright\n<i>Jenny Curran</i></string>
+    <string name="gary_sinise">Gary Sinise\n<i>Lieutenant Dan</i></string>
+    <string name="sally_field">Sally Field\n<i>Mrs. Gump</i></string>
+
+
+
+</resources>
