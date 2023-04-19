@@ -1,6 +1,5 @@
 package com.example.movieapplication
 
-import android.animation.*
 import android.app.DatePickerDialog
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -19,7 +18,6 @@ import androidx.appcompat.app.AlertDialog
 import java.text.SimpleDateFormat
 import java.util.*
 import kotlin.collections.ArrayList
-import com.example.movieapplication.*
 
 const val TICKET_BASE_PRICE = 39
 const val EXTRA_LEGROOM_PRICE = 12
@@ -159,7 +157,7 @@ class PurchaseActivity : AppCompatActivity() {
         return ticketPrice * numOfTickets
     }
 
-    //get extra legroom checkbox boolean
+    //Get extra legroom checkbox boolean
     private fun getExtraLegroomBoolean(): Pair<Boolean, String>{
         val pExtraLegroomBoolean = findViewById<CheckBox>(R.id.pExtraLegroomCheckBox).isChecked
         val pExtraLegroomBooleanStr = if (pExtraLegroomBoolean) getString(R.string.p_extra_legroom_positive)
@@ -168,7 +166,7 @@ class PurchaseActivity : AppCompatActivity() {
     }
 
 
-    //get full package checkbox boolean
+    //Get full package checkbox boolean
     private fun getFullPackageBoolean(): Pair<Boolean, String>{
         val pFullPackageBoolean = findViewById<CheckBox>(R.id.pFullPackageCheckBox).isChecked
         val pFullPackageBooleanStr = if (pFullPackageBoolean) getString(R.string.p_full_package_positive)
